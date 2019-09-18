@@ -6,17 +6,32 @@
 	background-color: #01A5D5!important;
 }
 .bg-dark {
-	background-color: #01A5D5;	
+	background-color: #01A5D5!important;	
 }
 .navbar .navbar-brand {
 	padding: 0px;
 	height: 55px;
+}
+.navbar-brand.text-white {
+	font-size: 0.75em;
+	font-weight:bold;
 }
 #logo {
 	height: 55px;
 	}
 
 /*------------------- CONTENT HOME ------------*/
+
+.breadcrumb {
+	background-color: transparent;
+}
+div.container-fluid div.row.mt-3.mb-3 div.card {
+	border: none;
+}
+
+h5.card-title {
+	color: #01A5D5;
+}
 .carousel-indicators {
 	margin-bottom: 0rem;
 }
@@ -26,6 +41,20 @@
 
 body div.row div.col-12.d-flex.justify-content-end {
 	margin: 5px 0;
+}
+h6 {
+	font-size: 1.15rem!important;
+	color: gray!important;
+}
+button.btn.btn-primary {
+	background-color: #01A5D5!important;
+	border-color: #01A5D5!important;
+}
+.list-group-item {
+	border: none;
+}
+.list-group-item.active {
+	font-weight: bold;
 }
 #facebook1 {
 	padding: 7px 0 0 5px;
@@ -123,24 +152,18 @@ body div.row div.col-12.d-flex.justify-content-end {
 
 
 /*------------------- FOOTER ------------*/
-#columnafooter1 {
-	
-}
-
-#columnafooter2 {
-	
-}
-
-#columnafooter3 {
-	
-}
 
 #footer {
 	padding-top: 1vh;
 	background-color: #01A5D5;
 	width:100%;
 }
-
+footer .list-group-item.bg-dark {
+	border: none;
+} 
+div.col-lg-3:nth-child(1) {
+	background-color: #01A5D5!important;
+}
 /*------------ ICONOS RRSS FOOTER -----------*/
 #facebook {
 	padding: 0px;
@@ -217,9 +240,8 @@ body div.row div.col-12.d-flex.justify-content-end {
 
 
 /*------------------- MEDIA QUERYS ------------*/
-@media ( max-width : 600px) {
-	#hr_footer {
-		display: none;
-	}
-}
 @media ( max-width : 768px) {
+/* #hr_footer {
+	display: none;
+}
+} */
