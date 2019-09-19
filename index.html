@@ -17,17 +17,20 @@
 <!-- ============================== CSS Propi ===================================================== -->
 <link rel="stylesheet" href="CSS/index.css">
 <!-- ============================== FAVICON ===================================================== -->
-<link rel="shortcut icon" type="image/x-icon" href=”/img/favicon.ico” />
-<link rel="icon" type="image/vnd.microsoft.icon" href=”/img/favicon.ico” sizes="32x32">
+<link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
 </head>
 <body>
 
 	<!-- ========================================= NAV ================================================ -->
-	<header>
+		<header>
 		<nav id="menu" class="navbar navbar-expand-md navbar-dark bg-dark">
-			<a class="navbar-brand"> <img id="logo" src="/img/soc.jpg"
-				alt="logo SOC">
+			<a href="/" class="navbar-brand text-white">
+				<img id="logo" src="/img/soc.jpg">
 			</a>
+			<span class="flex-grow-1 text-left text-white">
+				<a href="/">Servei d'Ocupació<br>de Catalunya</a>
+			</span>
+			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
 				aria-expanded="false" aria-label="Toggle navigation">
@@ -35,31 +38,29 @@
 			</button>
 			<div class="collapse navbar-collapse " id="navbarNavDropdown">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active"><a class="nav-link" href="#">Centros
-							<!-- <span class="sr-only">(current)</span>-->
-					</a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Oferta
-							formativa</a></li>
+					<li class="nav-item"><a class="nav-link" href="/centros">Centros</a>
+					</li>
+					<li class="nav-item"><a class="nav-link" href="#">Oferta formativa</a>
+					</li>
 					<li class="nav-item"><a class="nav-link" href="#">Biblioteca</a>
 					</li>
 					<li class="nav-item"><a class="nav-link" href="#">Contacto</a>
 					</li>
-					<li class="d-none d-md-block d-lg-none" class="nav-item dropdown">
+					<li class="d-none d-md-block d-lg-none nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#"
 						id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false"> eCampus </a>
-						<div class="dropdown-menu"
-							aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Campus Virtual</a> <a
-								class="dropdown-item" href="#">Entrar</a> <a
-								class="dropdown-item" href="#">Registrate</a>
+						aria-haspopup="true" aria-expanded="false"> Campus Virtual </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="web.cifo.local/campus_virtual">Campus Virtual</a>
+							<a class="dropdown-item" href="#">Entrar</a>
+							<a class="dropdown-item" href="#">Registrate</a>
 						</div>
-					<li class="d-none d-lg-block" class="nav-item"><a
-						class="nav-link" href="#">Oferta formativa</a></li>
-					<li class="d-none d-lg-block" class="nav-item"><a
-						class="nav-link" href="#">Biblioteca</a></li>
-					<li class="d-none d-lg-block" class="nav-item"><a
-						class="nav-link" href="#">Contacto</a></li>
+					<li class="d-none d-lg-block nav-item"><a
+						class="nav-link" href="/campus_virtual">Campus Virtual</a></li>
+					<li class="d-none d-lg-block nav-item"><a
+						class="nav-link" href="#">Entrar</a></li>
+					<li class="d-none d-lg-block nav-item"><a
+						class="nav-link" href="#">Registrate</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -151,7 +152,7 @@ Novedades
 <div class="container-fluid">
 		<div class="row mt-3 mb-3">
 			<div class="card col-lg-4 col-md-6 col-sm-12 col-12">
-				<img src="https://picsum.photos/200/300?random=1" width="400" height="700"
+				<img src="https://picsum.photos/200/300?random=1" width="700" height="400"
 					class="card-img-top w-100" style="height: auto"/>
 				<div class="card-body">
 					<h5 class="card-title">Project One</h5>
@@ -161,7 +162,7 @@ Novedades
 				</div>
 			</div>
 			<div class="card col-lg-4 col-md-6 col-sm-12 col-12">
-				<img src="https://picsum.photos/200/300?random=2" width="400" height="700"
+				<img src="https://picsum.photos/200/300?random=2" width="700" height="400"
 					class="card-img-top w-100" style="height: auto"/>
 				<div class="card-body">
 					<h5 class="card-title">Project Two</h5>
@@ -171,7 +172,7 @@ Novedades
 				</div>
 			</div>
 			<div class="card col-lg-4 col-md-6 col-sm-12 col-12">
-				<img src="https://picsum.photos/200/300?random=3" width="400" height="700"
+				<img src="https://picsum.photos/200/300?random=3" width="700" height="400"
 					class="card-img-top w-100" style="height: auto"/>
 				<div class="card-body">
 					<h5 class="card-title">Project Three</h5>
@@ -236,16 +237,16 @@ Novedades
 				<div class="row text-white">
 					<div class="col-lg-3 col-md-3 col-12">
 						<ul class="list-group bg-dark text-sm-center text-md-left">
-						  <li class="list-group-item bg-dark">DIRECTO A</li>
-						  <li class="list-group-item bg-dark">Centros</li>
-						  <li class="list-group-item bg-dark">Oferta Formativa</li>
-						  <li class="list-group-item bg-dark">Biblioteca</li>
-						  <li class="list-group-item bg-dark">Contacto</li>
-						  <li class="list-group-item bg-dark">eCampus</li>
-						  <li class="list-group-item bg-dark">Campus Virtual</li>
-						  <li class="list-group-item bg-dark">Entrar</li>
-						  <li class="list-group-item bg-dark">Registrarse</li>
-						</ul>			
+						  <li class="list-group-item bg-dark active">DIRECTO A</li>
+						  <li class="list-group-item bg-dark"><a href="/centros">Centros</a></li>
+						  <li class="list-group-item bg-dark"><a href="/">Oferta Formativa</a></li>
+						  <li class="list-group-item bg-dark"><a href="/">Biblioteca</a></li>
+						  <li class="list-group-item bg-dark"><a href="/">Contacto</a></li>
+						  <li class="list-group-item bg-dark"><a href="/">eCampus</a></li>
+						  <li class="list-group-item bg-dark"><a href="/campus_virtual">Campus Virtual</a></li>
+						  <li class="list-group-item bg-dark"><a href="/">Entrar</a></li>
+						  <li class="list-group-item bg-dark"><a href="/">Registrarse</a></li>
+						</ul>				
 					 </div>
 					<div class="col-lg-3 col-md-3 col-12">
 						<ul class="list-group bg-dark text-sm-center text-md-left">

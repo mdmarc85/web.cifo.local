@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /*------------------- NAV ------------*/
+
 .navbar   {
 	padding: 0px 0px;
 	background-color: #01A5D5!important;
@@ -19,8 +20,23 @@
 #logo {
 	height: 55px;
 	}
+.active {
+	font-weight:bold;
+}
 
 /*------------------- CONTENT HOME ------------*/
+.card.col-lg-4.col-md-6.col-sm-12.col-12 img {
+	height: auto!important;
+	width: 100%!important;
+}
+
+.container-fluid.row.mt-3.mb-3 {
+	display: flex;
+}
+
+.container-fluid.img-responsive {
+	background-size:cover;
+}
 
 .breadcrumb {
 	background-color: transparent;
@@ -35,9 +51,7 @@ h5.card-title {
 .carousel-indicators {
 	margin-bottom: 0rem;
 }
-.navbar-expand-md .navbar-nav .dropdown-menu {
-	margin-left: 80%;
-}
+
 
 body div.row div.col-12.d-flex.justify-content-end {
 	margin: 5px 0;
